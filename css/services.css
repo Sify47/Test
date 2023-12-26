@@ -1,0 +1,72 @@
+/* Start Nav */
+.Logo{
+    width: 182px;
+    height: 47px; 
+    left: 158px; 
+    top: 7px; 
+    position: relative
+}
+.Paywise{
+    /* left: 55px; 
+    top: 2px; 
+    position: absolute;  */
+    color: white; 
+    font-size: 28px; 
+    /* font-family: Poppins;  */
+    font-weight: 700; 
+    text-transform: uppercase; 
+    word-wrap: break-word
+}
+.FadLogoJuce{
+    width: 47px; 
+    height: 47px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex
+}
+.Group1{
+    width: 35.98px;
+    height: 35.98px;
+    position: relative;
+    background-image: url(/aya/image/fad_logo-juce.png);
+    background-repeat: no-repeat;
+    /* left: 10px; */
+    top: 6px;
+    background-position: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin: 5px 5px 5px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    /* color: white; */
+    font-size: 16px;
+}
+.Services{
+    text-align: center;
+    width: 610px;
+    position: relative;
+    left: 47rem;
+    top: -36px;
+}
+.nav-underline{
+    color: white;
+}
+nav ul li{
+    margin-right: 60px;
+}
+.nav-link:hover{
+    border-bottom: 2px solid;
+}
+.navbar-collapse{
+    justify-content: space-around;
+    font-size: 16px;
+    /* font-family: Poppins;  */
+}
+/* End Nav */

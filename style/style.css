@@ -1,0 +1,487 @@
+/* Start Nav */
+.Logo{
+    width: 182px;
+    height: 47px; 
+    left: 158px; 
+    top: 7px; 
+    position: relative
+}
+.Paywise{
+    /* left: 55px; 
+    top: 2px; 
+    position: absolute;  */
+    color: white; 
+    font-size: 28px; 
+    /* font-family: Poppins;  */
+    font-weight: 700; 
+    text-transform: uppercase; 
+    word-wrap: break-word
+}
+.FadLogoJuce{
+    width: 47px; 
+    height: 47px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex
+}
+.Group1{
+    width: 35.98px;
+    height: 35.98px;
+    position: relative;
+    background-image: url(/aya/image/fad_logo-juce.png);
+    background-repeat: no-repeat;
+    /* left: 10px; */
+    top: 6px;
+    background-position: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin: 5px 5px 5px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    /* color: white; */
+    font-size: 16px;
+}
+.Services{
+    text-align: center;
+    width: 610px;
+    position: relative;
+    left: 47rem;
+    top: -36px;
+}
+.nav-underline{
+    color: white;
+}
+nav ul li{
+    margin-right: 60px;
+}
+.nav-link:hover{
+    border-bottom: 2px solid;
+}
+.navbar-collapse{
+    justify-content: space-around;
+    font-size: 16px;
+    /* font-family: Poppins;  */
+}
+/* End Nav */
+
+
+/* Section 1 */
+.Section1{
+    background-color: white;
+    position: relative;
+    top: 935px;
+}
+.Mission{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.tex1{
+    text-align: center;
+    color: #309975; 
+    font-size: 48px; 
+    font-family: Poppins; 
+    font-weight: 700; 
+    word-wrap: break-word
+}
+.tex2{
+    text-align: center; 
+    color: #575757; 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    line-height: 30.04px; 
+    word-wrap: break-word
+}
+.col{
+    width: 500px;
+    height: 650px;
+    border-radius: 20px;
+    /* background-color: rgba(239, 238, 180, 0.20); */
+    /* box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15); */
+    margin-bottom: 70px;
+}
+.ro{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+    padding: 5px;
+}
+.h-100{
+    padding-left: 50px;
+    padding-top: 50px;
+    background-color: rgba(239, 238, 180, 0.20);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.card-title{
+    font-size: 36px;
+    font-family: Poppins;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+.card-text{
+     height: 198px; margin-top: 20px;
+}
+.card-text .text{
+    margin-bottom: 30px;
+    color: #575757; font-size: 18px; font-family: Poppins; font-weight: 400; word-wrap: break-word
+}
+.port1,.port2{
+    width: 150px;
+    height: 60px;
+    position: relative;
+    /* top: 20px; */
+    /* left: 60px; */
+    border-radius: 10px;
+}
+.petal{
+    color: #575757;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+    word-wrap: break-word;
+    position: relative;
+    left: 50px;
+    top: 15px;
+}
+.lern{
+    width: 180px;
+    height: 60px;
+    background-color: #F8BF88;
+    position: relative;
+    top: 60px;
+    left: 65px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.learn_more{
+    color: #575757;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+    position: relative; top: 10px;
+}
+/* End Section 1 */
+
+/* Start Section 2 */
+.Section2{
+    width: 1221px; height: 578px; left: 268px; top: 1978px; position: absolute;
+}
+.header{
+    width: 531px; height: 174px; left: 0px; top: -12px; position: absolute;
+}
+.header .tex1{
+    position: absolute; color: white; font-size: 48px; font-family: Poppins; font-weight: 500; line-height: 50.40px; word-wrap: break-word;
+}
+.header .text2{
+    width: 531px; height: 58px; left: 0px; top: 116px; position: absolute; color: white; font-size: 18px; font-family: Poppins; font-weight: 400; line-height: 25.29px; word-wrap: break-word;
+}
+.trans{
+    width: 446.39px; height: 138px; left: 101px; top: 301px; position: absolute;
+}
+.Usd{
+    left: 0px; top: 6px; position: absolute; color: white; font-size: 24px; font-family: Poppins; font-weight: 400; line-height: 25.20px; word-wrap: break-word;
+}
+.t35{
+    left: 108px; top: 0px; position: absolute; color: white; font-size: 36px; font-family: Poppins; font-weight: 500; line-height: 37.80px; word-wrap: break-word
+}
+.t55{
+    left: 324px; top: 0px; position: absolute; color: white; font-size: 36px; font-family: Poppins; font-weight: 500; line-height: 37.80px; word-wrap: break-word
+}
+.Eur{
+    left: 0px; top: 106px; position: absolute; color: white; font-size: 24px; font-family: Poppins; font-weight: 400; line-height: 25.20px; word-wrap: break-word
+}
+.t98{
+     top: 100px; position: absolute; color: white; font-size: 36px; font-family: Poppins; font-weight: 500; line-height: 37.80px; word-wrap: break-word
+}
+.sell{
+    width: 327px; height: 344px; left: 894px; top: 234px; position: absolute;
+}
+.like{
+    position: absolute; color: white; font-size: 18px; font-family: Poppins; font-weight: 400; line-height: 18.90px; word-wrap: break-word
+}
+.will{
+    left: 0px; top: 131px; position: absolute; color: white; font-size: 18px; font-family: Poppins; font-weight: 400; line-height: 18.90px; word-wrap: break-word
+}
+.Rectangle1:hover{
+    background-color: #309975;
+
+}
+.Rectangle1{
+    width: 327px; height: 70px; left: 0px; position: absolute; border: 2px white solid
+}
+.t10{position: absolute; color: white; font-size: 36px; font-family: Poppins; font-weight: 500; line-height: 37.80px; word-wrap: break-word
+}
+.Rub{
+    position: absolute; color: white; font-size: 36px; font-family: Poppins; font-weight: 400; line-height: 37.80px; word-wrap: break-word
+}
+.em{
+    width: 180px;
+    height: 60px;
+    background-color: #F8BF88;
+    position: relative;
+    top: 260px;
+    left: 70px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.e_m{
+    color: #575757;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+    position: relative; top: 10px;
+}
+/* End Section 2 */
+
+
+/* Start Section 3 */
+.Section3{
+    width: 1920px; height: 939px; top: 2656px; position: absolute; background-color: white;
+}
+.Section3 .box{
+    width: 1398px;
+    height: 754px;
+    left: 262px;
+    top: 51px;
+    position: absolute;
+}
+.Section3 .box_text{
+    width: 564px;
+    height: 144px;
+    left: 416px;
+    top: 0px;
+    position: absolute;
+}
+.Section3 .box_text .text1{
+    left: 44px;
+    top: 0px;
+    position: absolute;
+    color: #575757;
+    font-size: 48px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 63.60px;
+    word-wrap: break-word;
+}
+.Section3 .box_text .text2{
+    width: 564px;
+    top: 80px;
+    position: relative;
+    text-align: center;
+    color: #575757;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 31.80px;
+    word-wrap: break-word;
+    right: 30px;
+}
+.card1,.card2,.card3,.card4{
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+.Group24 .text_box{
+    width: 290px; height: 111px; left: 42px; top: 69px; position: absolute
+}
+.Group24 .text1{
+    position: absolute;
+    color: #575757;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 31.80px;
+    word-wrap: break-word;
+}
+.Group24 .text2{
+    width: 290px;
+    height: 69px;
+    left: 0px;
+    top: 42px;
+    position: absolute;
+    color: #575757;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 18.55px;
+    word-wrap: break-word;
+}
+.Section3 .card1:hover{
+    background-color: #309975;
+}
+.Section3 .card2:hover{
+    background-color: #309975;
+}
+.Section3 .card3:hover{
+    background-color: #309975;
+}
+.Section3 .card4:hover{
+    background-color: #309975;
+    
+}
+/* End Section 3 */
+
+/* Start Footer */
+.Footer{
+    width: 1458px;
+    height: 345px;
+    left: 256px;
+    top: 3644px;
+    position: absolute;
+}
+.Group2{
+    width: 522px;
+    height: 215px;
+    left: 936px;
+    top: 0px;
+    position: absolute;
+}
+.Solutions,.Mastercard,.Home,.LouisVuitton,.About,.Gillette,.services,.Apple,.Contact,.GeneralElectric,.FAQS,.Blog{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.Group3{
+    width: 501px;
+    height: 25px;
+    left: 607px;
+    top: 320px;
+    position: absolute;
+}
+.Copyrighy{
+    left: 0px;
+    top: 4px;
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-transform: capitalize;
+    word-wrap: break-word;
+}
+.Group5{
+    width: 177px;
+    height: 21px;
+    left: 324px;
+    top: 0px;
+    position: absolute;
+}
+
+.Group4 .Paywise{
+    width: 221.57px;
+    height: 73.28px;
+    left: 64px;
+    top: 0px;
+    position: absolute;
+    color: white;
+    font-size: 36px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-transform: uppercase;
+    word-wrap: break-word;
+}
+.FadLogojuce{
+    width: 55px;
+    height: 55px;
+    background-image: url(/image/fad_logo-juce.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Subscribe{
+    width: 364px;
+    left: 6px;
+    top: 80px;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 31.80px;
+    word-wrap: break-word;
+}
+.Submitting{
+    width: 425px;
+    left: 6px;
+    top: 260px;
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 18.55px;
+    word-wrap: break-word;
+}
+.email{
+    width: 425px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #E5E5E5;
+    border: none;
+    position: relative;
+    padding: 10px;
+}
+.subm{
+    width: 100px;
+    height: 70px;
+    background-color: #DAD873;
+    border-radius: 5px;
+    border: none;
+}
+/* End Footer */
+.Subscribe{
+    color: white;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 31.80px;
+    word-wrap: break-word;
+}
+.Submitting{
+    width: 425px;
+    left: 6px;
+    top: 260px;
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 18.55px;
+    word-wrap: break-word;
+}
+.email{
+    width: 229px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: #E5E5E5;
+    border: none;
+    position: relative;
+    padding: 10px;
+}
+.subm{
+    width: 100px;
+    height: 70px;
+    background-color: #DAD873;
+    border-radius: 5px;
+    border: none;
+}

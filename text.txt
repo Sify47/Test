@@ -1,0 +1,208 @@
+اسامه حمادة عبد العزيز عوض.  2220065
+اسراء فايز سيد احمد عسران السيد طه. 2220066
+ايه محمد السيد ابراهيم الحداد.  2220100
+دنيا سعيد عطيه ابو احمد.   2220147
+رحاب عماد محمد عبد العزيز عطيه.  2220154
+محمد ماهر محمد محمد ابو عرب  2220409
+فاطمة محمد المشير اسماعيل يوسف 2220326
+يوسف عادل احمد محمد ذكي. 2220532
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<ul class="nav nav-pills">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Action</a></li>
+      <li><a class="dropdown-item" href="#">Another action</a></li>
+      <li><a class="dropdown-item" href="#">Something else here</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="#">Separated link</a></li>
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+
+
+
+1’s complement of a binary number is another binary number obtained by toggling all bits in it, i.e., transforming the 0 bit to 1 and the 1 bit to 0. Examples:
+
+Let numbers be stored using 4 bits
+
+1's complement of 7 (0111) is 8 (1000)
+1's complement of 12 (1100) is 3 (0011)
+2’s complement of a binary number is 1 added to the 1’s complement of the binary number. Examples:
+
+Let numbers be stored using 4 bits
+
+2's complement of 7 (0111) is 9 (1001)
+2's complement of 12 (1100) is 4 (0100)
+  These representations are used for signed numbers.
+
+The main difference between 1′ s complement and 2′ s complement is that 1′ s complement has two representations of 0 (zero) — 00000000, which is positive zero (+0), and 11111111, which is negative zero (-0); whereas in 2′ s complement, there is only one representation for zero — 00000000 (0) because if we add 1 to 11111111 (-1), we get 100000000, which is nine bits long. Since only eight bits are allowed, the left-most bit is discarded(or overflowed), leaving 00000000 (-0) which is the same as positive zero. This is the reason why 2′ s complement is generally used.
+
+Another difference is that while adding numbers using 1′ s complement, we first do binary addition, then add in an end-around carry value. But, 2′ s complement has only one value for zero and doesn’t require carry values.
+
+Range of 1’s complement for n bit number is from -2n-1-1 to 2n-1-1 whereas the range of 2’s complement for n bit is from -2n-1 to 2n-1-1.
+
+There are 2n-1 valid numbers in 1’s complement and 2n valid numbers in 2’s complement.
+
+Please write comments if you find anything incorrect, or if you want to share more information about the topic discussed above.
+
+
+
+
+
+
+
+
+Title: Understanding the Difference between Ones Complement and Two's Complement of Binary Numbers
+
+Page 1:
+
+I. Introduction
+Binary numbers play a crucial role in computer systems and digital electronics, as they represent the fundamental basis for storing and manipulating data. In certain scenarios, it becomes necessary to convert numbers between different representations to perform mathematical operations or handle arithmetic issues. Two common representations of binary numbers are the ones complement and two's complement. This report aims to explain the differences between these two numerical systems and outline their applications in practice.
+
+II. Ones Complement
+Ones complement is a binary number representation that is used to represent both positive and negative numbers. In this system, the representation of a positive number remains the same as its binary value, while the representation of a negative number is obtained by flipping the bits of the positive number. To convert a positive binary number to its negative counterpart, the complement operation is performed by inverting each bit. 
+
+For example,
+Positive number: 0010010
+Negative number (ones complement): 1101101
+
+III. Two's Complement
+Two's complement is also a binary number representation for representing both positive and negative numbers. However, it offers a more efficient and convenient method of representing negative numbers compared to ones complement. In this system, a negative number is obtained by taking the ones complement of its positive counterpart and then adding 1 to the resulting value. This addition of 1 at the end allows for the elimination of a separate representation for positive numbers, enabling a more symmetric representation overall.
+
+For example,
+Positive number: 0010010
+Negative number (two's complement): 11011010 + 1 = 11011011
+
+IV. Differences
+
+1. Range of Representable Numbers:
+In ones complement, a range of positive numbers from (0) to (2^(n-1) - 1) can be represented, while the negative numbers can range from (-2^(n-1) + 1) to (-1). Here, n refers to the number of bits used to represent the numbers.
+In two's complement, the range of positive numbers and negative numbers is the same, i.e., from (0) to (2^(n-1) - 1) and from (-2^(n-1)) to (-1).
+
+2. Representation of Zero:
+In ones complement, both positive and negative zero have distinct representations. Positive zero is represented as all bits set to 0, while negative zero is represented as all bits set to 1.
+In two's complement, there is only one representation for zero, regardless of its sign. It is represented as all bits set to 0.
+
+Page 2:
+
+IV. Differences (continued)
+
+3. Arithmetic Properties:
+In ones complement, arithmetic operations involve taking the ones complement of the operand(s) and adding them together as unsigned binary numbers. If there is a carry after addition, it is added back to the result.
+In two's complement, arithmetic operations can be performed directly on the numbers without taking any complement. The representation itself, with its unique addition of 1, allows for seamless arithmetic operations. The addition of 1 after taking the ones complement means there is no need to add a carry.
+
+4. Sign Bit Position:
+In ones complement, the leftmost bit (most significant bit) is used as the sign bit. If it is 0, the number is positive, and if it is 1, the number is negative.
+In two's complement, the leftmost bit (most significant bit) is also used as the sign bit. However, if it is 0, the number is positive, and if it is 1, the number is negative. The difference lies in the interpretation of this sign bit, which is accomplished through the addition of 1 to the ones complement.
+
+V. Conclusion
+Both ones complement and two's complement are binary number representations that enable the representation of both positive and negative numbers. However, two's complement offers several advantages over ones complement, including a more symmetric range, a more efficient zero representation, and streamlined arithmetic operations. The choice between the two depends on the specific requirements of the system and the ease of implementation.
+
+In summary, understanding the differences between ones complement and two's complement provides insights into the various binary number representations used in computer systems, aiding in the efficient manipulation and storage of data.
+
+
+
+
+Prepare 2 pages report to explain the difference between ones complement and two's complement of binary numbers
